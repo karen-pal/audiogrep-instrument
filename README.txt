@@ -13,6 +13,10 @@ videogrep --input nietzsche.mp3 --transcribe
 Usando un modelo custom de vosk https://alphacephei.com/vosk/models:
 videogrep -i nietzsche.mp3 --transcribe --model vosk-model-small-es-0.42
 
+Para saber que palabras hay presentes:
+videogrep -i nietzsche.mp3 --ngrams 1
+
+
 Generar clips de palabras interesantes:
 videogrep -i nietzsche.mp3  --search "verdad" --export-clips
 
