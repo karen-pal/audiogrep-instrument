@@ -26,6 +26,9 @@ Search term, as a regular expression. You can add as many of these as you want. 
 
 videogrep --input path/to/video --search 'search phrase' --search 'another search' --search 'a third search' --output coolvid.mp4
 
+Ya no existe el --extract de audiogrep, si querés extraer:
+
+python3 extract_words.py
 
 ## Uso
 
